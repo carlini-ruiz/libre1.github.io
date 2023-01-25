@@ -1,0 +1,123 @@
+#principal {
+  border: solid 3px #000000;
+  color: rgb(11, 29, 126);
+  font-style: italic;
+  font-size: x-large;
+  padding: 5px;
+  margin: 0 auto;
+  width: 85%;
+  background: linear-gradient(450 deg, purple, black);
+}
+  h2{
+    font-size: 5em;
+  }
+  fieldset {
+    margin-bottom: 10px;
+    border: solid 3px #000000;
+  }
+  
+  legend {
+    border: solid 3px #000000;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 15px;
+  }
+  
+  #mifoto{
+    margin: 10px;
+    border: solid 2px;
+  }
+
+  #peliculas{
+    padding: 5px;
+  }
+
+  .skills:not(:last-child){
+  margin-bottom: 30px;
+  }
+
+  
+
+  .detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .menu{
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  .menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+  }
+
+  #html-menu{
+    animation: html-barra 2s forwards;
+  }
+
+
+  @keyframes html-barra{
+  100%{
+    width: 80%;
+  }
+  }
+
+  #py-menu{
+    animation: py-barra 2s forwards;
+  }
+
+
+  @keyframes py-barra{
+  100%{
+    width: 50%;
+  }
+  }
+
+  #jv-menu{
+    animation: jv-barra 2s forwards;
+  }
+
+
+  @keyframes jv-barra{
+  100%{
+    width: 70%;
+  }
+  }
+
+
+  #css-menu{
+    animation: css-barra 2s forwards;
+  }
+
+
+  @keyframes css-barra{
+  100%{
+    width: 5%;
+  }
+  }
+  
+  #english-menu{
+    animation: english-barra 2s forwards;
+  }
+
+
+  @keyframes english-barra{
+  100%{
+    width: 100%;
+  }
+  }
+
+
+  body {
+    background: url("Imagenes/fondo.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
